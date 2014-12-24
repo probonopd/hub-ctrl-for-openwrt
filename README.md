@@ -2,7 +2,7 @@ hub-ctrl-for-openwrt
 ====================
 hub-ctrl allows you to switch off power on USB ports on USB hubs that have the hardware necessary to allow software controlled power switching. 
 
-This repository contains a Makefile that allows a hub-ctrl package to be built using the OpenWrt SDK.
+This repository contains a Makefile that allows a hub-ctrl package to be built using the OpenWrt SDK. A precompiled binary package for ar71xx (e.g., TP-Link TL-WR703N, TL-WR710N; D-Link DIR-505) is available on https://github.com/probonopd/hub-ctrl-for-openwrt/releases/tag/1.0
 
 Building
 --------
