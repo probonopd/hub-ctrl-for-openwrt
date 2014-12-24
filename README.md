@@ -18,21 +18,13 @@ Make sure the Makefile is in ```package/hub-ctrl/Makefile``` in the OpenWrt SDK,
 Using
 -----
 
-Controlling Power
-=================
-
 You can control the power on a port using the following command.
 
     sudo ./hub-ctrl -h 3 -P 1 -p 0
 
-That says to control hub 3 (-h 3) port 1 (-P 1) and to turn the power
-off (-p 0). You can also use ”-p 1” to turn the power back on.
+That says to control hub 3 (-h 3) port 1 (-P 1) and to turn the power off (-p 0). You can also use ”-p 1” to turn the power back on.
 
-You can also specify the USB device based on the BUS and DEV numbers. Use the
-following command the list the currently connected devices. It's useful to run
-this with the device disconnected and then again with the device connected so
-that you can tell which device is the one you are trying to target (the Targus
-in my case).
+You can also specify the USB device based on the BUS and DEV numbers. Use the following command the list the currently connected devices. It's useful to run this with the device disconnected and then again with the device connected so that you can tell which device is the one you are trying to target (the Targus in my case).
 
     lsusb
 
